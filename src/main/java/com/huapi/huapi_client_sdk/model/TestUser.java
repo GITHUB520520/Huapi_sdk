@@ -4,8 +4,12 @@ import lombok.Data;
 
 @Data
 public class TestUser {
+
     private String username;
+
     private Integer age;
+
     private String password;
+
     private String avatar;
 }

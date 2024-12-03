@@ -7,6 +7,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+/**
+ * @Description: Huapi客户端配置
+ */
 @Configuration
 @ConfigurationProperties("huapi.client")
 @Data
